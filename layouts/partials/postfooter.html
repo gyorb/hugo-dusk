@@ -1,0 +1,12 @@
+<footer class="post-footer">
+
+  <div class="post-footer-data">
+    {{ partial "tags.html" . }}
+    <div class="date"> {{ .Date.Format "Jan 2, 2006" }} </div>
+  </div>
+
+</footer>
+
+{{ if eq .Type "post" }}
+  {{ partial "disqus.html" . }}
+{{ end }}
