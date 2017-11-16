@@ -36,3 +36,11 @@ SectionPagesMenu = "main"
   #gitlab = "gitlab id"
   twitter = "twitter id"
   #linkedin = "linkedin id"
+
+[params.colors]
+  # hugo-dusk colors
+  background = "#101010" # background color for the site
+  main = "#99cc66"
+  text = "#dbdbdb"
+  code-quote-back = "#1D1F21" # background color for quotes and code blocks
+  copyright = "#404040" # copyright text color

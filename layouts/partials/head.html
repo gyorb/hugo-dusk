@@ -14,7 +14,9 @@
 {{ template "_internal/schema.html" . }}
 
 <link rel="stylesheet" href="css/layout.css" />
-<link rel="stylesheet" href="css/color-dark.css" />
+<style type="text/css">
+{{ partial "theme-colors.css" . | safeCSS }}
+</style>
 
 {{ template "_internal/google_analytics_async.html" . }}
 
