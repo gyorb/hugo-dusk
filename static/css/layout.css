@@ -356,17 +356,7 @@ th, td {
 }
 
 .rmore {
-  text-align: right;
-}
-
-.rmore a {
-  display: inline-block;
-  padding: 0.1em;
-  text-decoration: none;
-}
-
-.rmore a:hover {
-  text-decoration: underline;
+  padding: 0 0 0 0.8em;
 }
 
 /* terms list */
