@@ -356,7 +356,8 @@ th, td {
 }
 
 .rmore {
-  padding: 0 0 0 0.8em;
+  white-space:nowrap; 
+  padding: 0 0 0 0.3em;
 }
 
 /* terms list */
