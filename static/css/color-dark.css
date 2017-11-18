@@ -29,5 +29,5 @@ th { background: #1D1F21; }
 .post-preview .title a{ color: #99cc66; }
 .content-item a:hover{ text-decoration: underline; color: #99cc66; }
 .post-list .title { color: #99cc66; }
-.rmore a { color: #99cc66; }
+.rmore { color: #99cc66; }
 .terms .term a:hover { text-decoration: underline; color: #99cc66; }

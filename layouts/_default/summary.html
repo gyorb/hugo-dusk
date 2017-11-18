@@ -8,12 +8,12 @@
     {{ partial "tags.html" . }}
   </header>
 
-  <div class="summary"> {{ .Summary }} </div>
-
-  <footer>
-  <div class="rmore">
-    <a href='{{ .Permalink }}'><nobr>Read more ...</nobr></a>
+  <div class="summary">
+    {{ .Summary }}
+    <a href='{{ .Permalink }}' class="rmore">Read more ...</a>
   </div>
-  </footer>
+
+  <div class="rmore">
+  </div>
 
 </article>
