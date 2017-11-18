@@ -11,6 +11,11 @@ disqusShortname = ""
 
 SectionPagesMenu = "main"
 
+# use Chroma for syntax highlight
+pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
+# enable syntax highlight for code blocks
+pygmentsCodeFences = true
+
 [[menu.main]]
   name = "Posts"
   weight = -120
