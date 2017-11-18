@@ -6,17 +6,17 @@ body {
 a { color: {{ .Param "colors.text" }}; }
 
 pre {
-  background: {{ .Param "colors.code-back" }};
+  background: {{ .Param "colors.code-quote-bg" }};
   border: 1px solid {{ .Param "colors.text" }};
   border-radius: 5px;
 }
 
 code {
-  background: {{ .Param "colors.code-back" }};
+  background: {{ .Param "colors.code-quote-bg" }};
 }
 
 blockquote {
-  background: {{ .Param "colors.code-back" }};
+  background: {{ .Param "colors.code-quote-bg" }};
   border-left: 3px solid {{ .Param "colors.text" }};
 }
 
