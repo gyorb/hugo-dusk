@@ -1,7 +1,7 @@
 # Changelog
 
 
-## [1.1] - 2017-11-20
+## [1.1] - 2017-11-22
 ### Added
   * Theme colors can be changed in the config file
   * Makefile for easier development
