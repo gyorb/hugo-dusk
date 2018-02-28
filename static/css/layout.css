@@ -125,7 +125,7 @@ th, td {
 /* site title  */
 .siteTitle {
   font-size: 3.5em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.1em;
 }
 
 .siteTitle a {
@@ -282,7 +282,7 @@ th, td {
 
 .social-link {
   margin: 0.2em;
-  font-size: 1.2em;
+  font-size: 1.75em;
 }
 
 .social-link:hover {
