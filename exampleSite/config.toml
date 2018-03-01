@@ -5,6 +5,7 @@ languageCode = "en-US"
 canonifyurls = true
 paginate = 3
 theme = "hugo-dusk"
+enableRobotsTXT = true
 
 googleAnalytics = ""
 disqusShortname = ""
