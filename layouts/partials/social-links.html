@@ -1,8 +1,7 @@
-
 <div class="social-links-header">
 
   {{with .Site.Params.email}}
-  <a href="mailto:{{.}}"><div class="social-link">email</div></a>
+  <a href="mailto:{{.}}"><div class="social-link"><i class="fas fa-envelope"></i></div></a>
   {{end}}
 
   {{with .Site.Params.github}}
@@ -10,7 +9,7 @@
   {{end}}
 
   {{with .Site.Params.gitlab}}
-  <a href="https://gitlab.com/{{.}}" target="_blank"><div class="social-link">gl</div></a>
+  <a href="https://gitlab.com/{{.}}" target="_blank"><div class="social-link"><i class="fab fa-gitlab"></i></div></a>
   {{end}}
 
   {{with .Site.Params.twitter}}
@@ -18,7 +17,7 @@
   {{end}}
 
   {{with .Site.Params.linkedin}}
-  <a href="https://www.linkedin.com/in/{{.}}" target="_blank"><div class="social-link">in</div></a>
+  <a href="https://www.linkedin.com/in/{{.}}" target="_blank"><div class="social-link"><i class="fab fa-linkedin-in"></i></div></a>
   {{end}}
 
 </div>
