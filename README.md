@@ -20,7 +20,7 @@ Simple minimalistic dark theme for [Hugo](https://gohugo.io/).
 ~~~sh
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/gyorb/hugo-dusk
+$ git clone https://github.com/bickhaus/hugo-dusk.git
 ~~~
 
 ## Configuration
