@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [1.2] - 2018-03-01
+### Added
+  * Font Awesome icons for social-links-header
+  * support for robots.txt
+  * HTML support for footer via safeHTML
+  * horizontal rule in header
+
+### Changed
+  * max width of page
+  * sizing of title, h2, social links
+
 ## [1.1] - 2017-11-22
 ### Added
   * Theme colors can be changed in the config file

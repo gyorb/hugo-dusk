@@ -1,6 +1,6 @@
 Simple minimalistic dark theme for [Hugo](https://gohugo.io/).
 
-![screenshot](https://github.com/gyorb/hugo-dusk/blob/master/images/tn.png "screenshot")
+![screenshot](https://github.com/bickhaus/hugo-dusk/blob/master/images/tn.png "screenshot")
 
 ## Features
 
@@ -13,13 +13,14 @@ Simple minimalistic dark theme for [Hugo](https://gohugo.io/).
 * Configrable pagination for posts
 * Lazy menu
 * Custom 404 page
+* Font Awesome icons in top social header
 
 ## Installation
 
 ~~~sh
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/gyorb/hugo-dusk
+$ git clone https://github.com/bickhaus/hugo-dusk.git
 ~~~
 
 ## Configuration
@@ -29,11 +30,12 @@ Example configuration:
 ~~~~toml
 baseurl = "/"
 title = "My site."
-copyright = "Copyright (c) 2017, all rights reserved."
+copyright = "Copyright (c) 2018. See <a href=#>someSite</a> for more information."
 canonifyurls = true
 languageCode = "en-US"
 paginate = 3
 theme = "hugo-dusk"
+enableRobotsTXT = true
 
 googleAnalytics = ""
 disqusShortname = ""
