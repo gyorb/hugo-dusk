@@ -7,13 +7,12 @@
 {{ .Hugo.Generator }}
 
 <link rel="canonical" href="{{ .Permalink }}">
-<base href="{{ .Site.BaseURL }}" />
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/google_news.html" . }}
 {{ template "_internal/schema.html" . }}
 
-<link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="/css/layout.css" />
 <style type="text/css">
 {{ partial "theme-colors.css" . | safeCSS }}
 </style>
