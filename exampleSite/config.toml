@@ -29,6 +29,12 @@ pygmentsCodeFences = true
   identifier = "tag"
   url = "/tags/"
 
+[taxonomies]
+  category = "categories"
+  group = "groups"
+  series = "series"
+  tag = "tags"
+
 [author]
   name = ""
 
