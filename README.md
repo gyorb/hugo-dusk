@@ -22,6 +22,11 @@ $ cd themes
 $ git clone https://github.com/gyorb/hugo-dusk
 ~~~
 
+if error:
+~~~sh
+$ git submodule add https://github.com/gyorb/hugo-dusk themes/hugo-dusk
+~~~
+
 ## Configuration
 
 Example configuration:
