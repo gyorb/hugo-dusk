@@ -10,7 +10,7 @@ Simple minimalistic dark theme for [Hugo](https://gohugo.io/).
 * [OpenGraph](http://ogp.me/), [Twitter cards](https://dev.twitter.com/cards/overview) support
 * [Disqus](https://disqus.com/) comments support
 * [Google analytics](https://www.google.com/analytics/) (async)
-* Configrable pagination for posts
+* Configurable pagination for posts
 * Lazy menu
 * Custom 404 page
 
