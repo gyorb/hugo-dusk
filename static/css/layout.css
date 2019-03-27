@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
   font-family: "Arial", Gadget, sans-serif;
   counter-reset: heading;
@@ -454,3 +458,53 @@ th, td {
   }
 }
 
+.flex-container {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+    align-items:stretch;
+}
+
+.flex-item {
+    width: 100%;
+}
+
+input.flex-item {
+    margin: 0 0 0.5rem 0;
+}
+
+input[type="email"].flex-item {
+    flex-grow: 3;
+    margin-left: 0.5rem;
+}
+
+input[type="submit"].flex-item {
+    margin-top: 1rem;
+    height: 3rem;
+}
+
+textarea.flex-item{
+    padding: 0.5rem;
+}
+
+hr {
+   display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 100%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #dbdbdb;
+}
