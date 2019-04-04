@@ -5,6 +5,7 @@ languageCode = "en-US"
 canonifyurls = true
 paginate = 3
 theme = "hugo-dusk"
+themesDir = "../.."
 enableRobotsTXT = true
 
 googleAnalytics = ""
