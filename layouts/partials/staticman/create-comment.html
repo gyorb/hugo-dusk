@@ -1,4 +1,4 @@
-<form method="POST" action="https://api.staticman.net/v2/entry/{{ .Site.Params.staticman.username }}/{{ .Site.Params.staticman.repository }}/{{ .Site.Params.staticman.branch }}/" class="flex-container flex-column">
+<form method="POST" action="https://{{ .domain }}/v{{ .api_version }}/entry/{{ .username }}/{{ .repository }}/{{ .branch }}/" class="flex-container flex-column">
   <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
   <input type="hidden" name="options[slug]" value="{{.Page.File.ContentBaseName}}">
   
