@@ -12,10 +12,10 @@
 <h2 id="Comments">
   Comments
 </h2>
-
-comming soon ...
-
-  {{ with .Site.Params.staticman}}
+<p>
+&nbsp;&nbsp;&nbsp; comming soon ...
+</p>
+{{ if ne (default "undefined" .Site.Params.staticman) "undefined" }}
     {{ partial "staticman/create-comment" . }}
     {{ partial "staticman/view-comments" . }}
   {{ else }}

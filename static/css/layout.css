@@ -458,41 +458,6 @@ th, td {
   }
 }
 
-.flex-container {
-    display: flex;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.flex-row {
-    flex-direction: row;
-    align-items:stretch;
-}
-
-.flex-item {
-    width: 100%;
-}
-
-input.flex-item {
-    margin: 0 0 0.5rem 0;
-}
-
-input[type="email"].flex-item {
-    flex-grow: 3;
-    margin-left: 0.5rem;
-}
-
-input[type="submit"].flex-item {
-    margin-top: 1rem;
-    height: 3rem;
-}
-
-textarea.flex-item{
-    padding: 0.5rem;
-}
-
 hr {
    display: block;
    position: relative;
@@ -507,4 +472,65 @@ hr {
    border: none;
    border-top: 1px solid #aaaaaa;
    border-bottom: 1px solid #dbdbdb;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+    align-items:stretch;
+}
+
+.flex-container.flex-start {
+    justify-content: flex-start;
+    
+}
+
+.flex-container.flex-end {
+    justify-content: flex-end;
+    
+}
+
+.flex-container.flex-center {
+    justify-content: center;
+    
+}
+
+input.flex-item {
+    margin: 0 0 0.5rem 0;
+}
+
+form.comment {
+    margin-bottom: 1.5rem;
+}
+
+form.comment input[type="email"].flex-item {
+    flex-grow: 3;
+    margin-left: 0.5rem;
+}
+
+form.comment input[type="submit"].flex-item {
+    margin-top: 1rem;
+    height: 3rem;
+    width: 100%;
+}
+
+form.comment textarea.flex-item {
+    padding: 0.5rem;
+    width: 100%;
+}
+
+blockquote.comment p {
+    padding-top:0
+}
+
+.comment cite.flex-container img.avatar {
+    margin-left:0;
+    margin-right:auto;
 }
