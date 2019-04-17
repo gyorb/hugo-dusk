@@ -360,7 +360,7 @@ th, td {
 }
 
 .rmore {
-  white-space:nowrap; 
+  white-space:nowrap;
   padding: 0 0 0 0.3em;
 }
 
@@ -489,17 +489,14 @@ hr {
 
 .flex-container.flex-start {
     justify-content: flex-start;
-    
 }
 
 .flex-container.flex-end {
     justify-content: flex-end;
-    
 }
 
 .flex-container.flex-center {
     justify-content: center;
-    
 }
 
 input.flex-item {
