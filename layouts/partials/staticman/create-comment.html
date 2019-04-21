@@ -1,5 +1,5 @@
 <form class="comment" method="POST" action="https://{{ .Site.Params.staticman.domain }}/v{{ .Site.Params.staticman.api_version }}/entry/{{ .Site.Params.staticman.username }}/{{ .Site.Params.staticman.repository }}/{{ .Site.Params.staticman.branch }}/comments" class="flex-container flex-column">
-  <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
+  <input type="hidden" name="options[redirect]" value="{{ .Permalink | absURL }}#comment-submitted">
   <input type="hidden" name="options[slug]" value="{{ .Page.File.ContentBaseName }}">
   <div class="flex-container flex-row">
     <input name="fields[name]" type="text" placeholder="Your name" class="flex-item">
