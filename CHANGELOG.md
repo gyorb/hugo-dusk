@@ -5,6 +5,9 @@
 ### Changed
   * sort posts/pages on the error page by last modification date
 
+### Fixed
+  * optimize image size when viewed on mobile devices
+
 
 ## [1.1] - 2017-11-22
 ### Added
