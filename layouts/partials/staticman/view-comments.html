@@ -5,7 +5,7 @@
 {{ range $comments }}
   {{ if eq .Name $entryId }}
     {{ $.Scratch.Add "hasComments" 1 }}
-    {{ range $index, $comments := (index $.Site.Data.comments $entryId ) }}
+    {{ range $index, $comments := sort (index $.Site.Data.comments $entryId ) "date"}}
 <blockquote class="comment">
   <p>{{ .message | markdownify }}</p>
   <cite class="flex-container flex-row flex-end">
