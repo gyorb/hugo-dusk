@@ -8,5 +8,15 @@
 </footer>
 
 {{ if eq .Type "post" }}
-  {{ template "_internal/disqus.html" . }}
+
+  {{ if ne (default "undefined" .Site.Params.staticman) "undefined" }}
+<hr>
+<h2 id="Comments">
+  Comments
+</h2>
+    {{ partial "staticman/create-comment" . }}
+    {{ partial "staticman/view-comments" . }}
+  {{ else }}
+    {{ template "_internal/disqus.html" . }}
+  {{ end }}
 {{ end }}

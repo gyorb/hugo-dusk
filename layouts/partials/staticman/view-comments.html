@@ -1,0 +1,24 @@
+{{ $comments := readDir "data/comments" }}
+{{ $.Scratch.Add "hasComments" 0 }}
+{{ $entryId := .Page.File.ContentBaseName }}
+
+{{ range $comments }}
+  {{ if eq .Name $entryId }}
+    {{ $.Scratch.Add "hasComments" 1 }}
+    {{ range $index, $comments := sort (index $.Site.Data.comments $entryId ) "date"}}
+<blockquote class="comment">
+  <p>{{ .message | markdownify }}</p>
+  <cite class="flex-container flex-row flex-end">
+    <img class="flex-item avatar" src="https://www.gravatar.com/avatar/{{ .email }}?s=50&d=retro">
+    <div class="flex-container flex-column flex-item flex-center">
+      <strong>{{ .name }}</strong><br>{{ dateFormat "02/01/2006" .date }}
+    </div>
+  </cite>
+</blockquote>
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if eq ($.Scratch.Get "hasComments") 0 }}
+<p>Be the first to comment on this article.</p>
+{{ end }}
