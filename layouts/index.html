@@ -3,7 +3,7 @@
 
 <main>
 
-{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+{{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
   {{ range $paginator.Pages }}
     {{ .Render "summary" }}
 {{ end }}
