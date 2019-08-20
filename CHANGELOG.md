@@ -3,9 +3,11 @@
 ## [Unreleased]
 
 ### Changed
+  * minimal required Hugo version is v0.55
   * sort posts/pages on the error page by last modification date
 
 ### Fixed
+  * deprecation warnings during site build with v0.55 and newer
   * optimize image size when viewed on mobile devices
 
 

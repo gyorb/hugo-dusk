@@ -5,7 +5,7 @@ description = "A minimalistic dark responsive theme."
 homepage = "https://github.com/gyorb/hugo-dusk"
 tags = ["blog", "responsive", "google analytics", "disqus", "syntax highlighting", "custom themes", "minimal", "minimalist", "clean", "dark"]
 features = ["blog"]
-min_version = 0.28
+min_version = 0.55
 
 [author]
   name = "Gyorgy Orban"
