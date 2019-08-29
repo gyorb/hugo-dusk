@@ -12,7 +12,7 @@ pre {
 }
 
 code {
-  background: {{ .Param "colors.code-quote-bg" }};
+  background-color: transparent;
 }
 
 blockquote {
