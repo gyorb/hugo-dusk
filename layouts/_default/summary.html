@@ -4,16 +4,18 @@
     <h2 class="title"> <a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
     <div class="meta">
       {{ .Date.Format "Jan 2, 2006" }} - {{ .ReadingTime }} minutes
+      {{ partial "tags.html" . }}
     </div>
-    {{ partial "tags.html" . }}
+
   </header>
 
   <div class="summary">
     {{ .Summary }}
-    <a href='{{ .Permalink }}' class="rmore">Read more ...</a>
   </div>
 
   <div class="rmore">
+    <a href='{{ .Permalink }}' class="rmore">Read more ...</a>
   </div>
+
 
 </article>
