@@ -55,7 +55,8 @@ th {
   color: {{ .Param "colors.main" }};
 }
 .post-list .title { color: {{ .Param "colors.main" }}; }
-.rmore { color: {{ .Param "colors.main" }}; }
+.rmore { color: {{ .Param "colors.text" }}; }
+.rmore:hover { color: {{ .Param "colors.main" }}; }
 .terms .term a:hover {
   text-decoration: underline;
   color: {{ .Param "colors.main" }};
