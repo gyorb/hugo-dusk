@@ -49,4 +49,4 @@ pygmentsCodeFences = true
   #gitlab = "gitlab id"
   twitter = "twitter id"
   #linkedin = "linkedin id"
-  theme_colors = "color-dark"
+  theme_colors = "default-dark"
