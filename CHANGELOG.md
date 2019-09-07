@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+### Added
+  * design update:
+    - titles, tags, list of posts are not so dense as before
+    - default colors were fine tuned
+    - some small layout changes
+
 ### Changed
   * Theme colors can be changed in a custom css file
   * minimal required Hugo version is v0.57.2
