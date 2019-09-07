@@ -5,7 +5,7 @@ Simple minimalistic dark theme for [Hugo](https://gohugo.io/).
 ## Features
 
 * Responsive minimalistic design
-* Configurable theme colors
+* Configurable theme colors (with custom css file)
 * Syntax highlight with builtin [Chroma](http://gohugo.io/content-management/syntax-highlighting/)
 * [OpenGraph](http://ogp.me/), [Twitter cards](https://dev.twitter.com/cards/overview) support
 * [Disqus](https://disqus.com/) comments support
@@ -70,12 +70,5 @@ pygmentsCodeFences = true
   twitter = "twitter id"
   linkedin = "linkedin id"
   email = "myemail"
-
-[params.colors]
-  # hugo-dusk colors
-  background = "#101010" # background color for the site
-  main = "#99cc66"
-  text = "#dbdbdb"
-  code-quote-bg = "#1D1F21" # background color for quotes and code blocks
-  copyright = "#404040" # copyright text color
+  theme_colors = "color-dark" # uses color css file under static/css/color-dark.css
 ~~~~
