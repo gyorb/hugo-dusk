@@ -9,6 +9,7 @@ Simple minimalistic dark theme for [Hugo](https://gohugo.io/).
 * Syntax highlight with builtin [Chroma](http://gohugo.io/content-management/syntax-highlighting/)
 * [OpenGraph](http://ogp.me/), [Twitter cards](https://dev.twitter.com/cards/overview) support
 * [Disqus](https://disqus.com/) comments support
+* [Utterances](https://utteranc.es/) comments support
 * [Google analytics](https://www.google.com/analytics/) (async)
 * Configurable pagination for posts
 * Lazy menu
@@ -71,4 +72,7 @@ pygmentsCodeFences = true
   linkedin = "linkedin id"
   email = "myemail"
   theme_colors = "default-dark" # uses color css file under static/css/default-dark.css
+  utterancesRepo="REPO_NAME" # Utterances is enabled when this param is set
+  utterancesTheme="github-dark" # Default: github-dark
+  utterancesIssueTerm="pathname" # Default: pathname
 ~~~~
