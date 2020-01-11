@@ -20,6 +20,24 @@ a {
   color: var(--main-text);
 }
 
+.__h_instagram.card {
+  border: 1px solid #303030 !important;
+}
+
+.__h_instagram .card-text {
+  color: var(--main-text);
+}
+
+.__h_instagram .card-header {
+  color: var(--main-bg-color);
+  background-color: #101010;
+}
+
+.__h_instagram .card-body {
+  color: var(--main-bg-color);
+  background-color: #101010;
+}
+
 pre {
   background: var(--main-bg-color);
   border: 1px solid #303030;
