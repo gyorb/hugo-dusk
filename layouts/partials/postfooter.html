@@ -1,8 +1,13 @@
 <footer class="post-footer">
 
   <div class="post-footer-data">
-    {{ partial "tags.html" . }}
-    <div class="date"> {{ .Date.Format "2 Jan 2006" }} </div>
+            {{ partial "tags.html" . }}
+    <div class="date"> {{ .Date.Format "2006-01-01" }} </div>
+    {{if or .Params.categories .Params.series}}
+    <hr>
+            {{ partial "categories.html" . }}
+            {{ partial "series.html" . }}
+    {{end}}
   </div>
 </footer>
 

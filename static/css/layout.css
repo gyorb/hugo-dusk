@@ -182,22 +182,39 @@ th, td {
 .post-footer-data {
   display: -webkit-flex;
   -webkit-flex-direction: column;
-  -webkit-align-items: flex-end;
+  -webkit-align-items: flex-start;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
+  padding: 1em;
+}
 
-  margin: 1em;
+.post-footer hr {
+  width: 100%;
 }
 
 .post-footer-data .date {
   font-weight: bold;
-  font-size: 0.9em;
+  text-align: right;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
 
-.post-footer-data .tags {
+.post-footer-data .tag {
   font-weight: bold;
-  font-size: 0.9em;
+}
+
+.post-footer-data .categories {
+  padding-top: 0.5em;
+}
+
+.post-footer-data .category {
+  font-weight: bold;
+}
+
+.post-footer-data .series {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .content-item {
@@ -211,12 +228,33 @@ th, td {
   display: -webkit-flex;
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  font-size: 0.7em;
 }
 
 .content-item .tags {
-  margin-bottom: 0.2em;
-  font-size: 0.7em;
+  margin-bottom: 0.3em;
+  font-weight: bold;
+}
+
+.content-item .categories {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.content-item .category {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.content-item .series {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.content-item .series-name {
+  font-weight: bold;
+  display: inline-block;
 }
 
 .content-item .date {
@@ -335,6 +373,29 @@ th, td {
   margin: 0em;
 }
 
+.post-list .date {
+  margin: 0em;
+  font-size: 0.9em;
+}
+
+.post-footer-data .category {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.post-footer-data .category a {
+  text-decoration: none;
+}
+
+.post-footer-data .series-name {
+  display: inline-block;
+}
+
+.post-footer-data .series-name a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .tag {
   display: inline-block;
 }
@@ -395,6 +456,12 @@ th, td {
 .post-preview .tags {
   font-weight: bold;
   text-align: left;
+}
+
+.post-preview .categories {
+  font-weight: bold;
+  text-align: left;
+  display: inline-block;
 }
 
 .rmore {
