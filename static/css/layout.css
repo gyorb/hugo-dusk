@@ -414,10 +414,7 @@ th, td {
 
 .post-preview {
   text-decoration: none;
-  padding-bottom: 1em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  padding-top: 0.5em;
+  padding: 0.5em 0.5em 1em 0.5em;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
