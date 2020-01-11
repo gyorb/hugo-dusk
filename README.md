@@ -44,10 +44,10 @@ disqusShortname = ""
 
 SectionPagesMenu = "main"
 
-# use Chroma for syntax highlight
-pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
-# enable syntax highlight for code blocks
-pygmentsCodeFences = true
+# Configure syntax highlight
+[markup]
+  [markup.highlight]
+    style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
 
 [[menu.main]]
   name = "Posts"
