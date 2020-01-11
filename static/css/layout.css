@@ -42,8 +42,8 @@ li {
 }
 
 p {
-  line-height: 1.4em;
- }
+  line-height: 1.5em;
+}
 
 h1 { font-size: 2em;
      font-weight: normal;
@@ -109,8 +109,7 @@ code {
   white-space: -pre-wrap;      /* Opera 4-6 */
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
-
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 blockquote {
@@ -366,7 +365,7 @@ th, td {
 .post-preview .summary {
   margin-top: 1em;
   margin-bottom: 0.5em;
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 .post-preview .summary p {
@@ -374,7 +373,7 @@ th, td {
   margin-block-end: 0.5em;
   margin-inline-start: 0.em;
   margin-inline-end: 0em;
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 .post-preview .meta {
