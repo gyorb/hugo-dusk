@@ -64,8 +64,9 @@ h6 { font-size: .75em;
      font-weight: normal;
 }
 
-a:hover, a:active, a:focus {
-  outline: 0;
+a:active, a:focus {
+  outline-style: solid;
+  outline-width: thin;
 }
 
 header {
