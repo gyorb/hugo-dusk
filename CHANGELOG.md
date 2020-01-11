@@ -3,13 +3,17 @@
 ## [Unreleased]
 
 ### Added
+  * Show categories and series for the posts
   * [Utterances](https://utteranc.es/) comments support by @Jarijaas
   * design update:
+    - improved instagram card style
+    - readability and contrast updates
     - titles, tags, list of posts are not so dense as before
     - default colors were fine tuned
     - some small layout changes
 
 ### Changed
+  * Configuration example for syntax highlight
   * Theme colors can be changed in a custom css file
   * minimal required Hugo version is v0.57.2
   * sort posts/pages on the error page by last modification date
