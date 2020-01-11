@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ### Added
+  * [Utterances](https://utteranc.es/) comments support by @Jarijaas
   * design update:
     - titles, tags, list of posts are not so dense as before
     - default colors were fine tuned
