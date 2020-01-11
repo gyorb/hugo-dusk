@@ -63,7 +63,9 @@ th { background: #101010; }
 
 .post {
   background: #202020;
-  border: 1px solid #303030;
+  border-left: 1px solid #303030;
+  border-right: 1px solid #303030;
+  border-top: 1px solid #303030;
   border-radius: 0.2em;
   box-shadow: 0 1px 2px 0 #000000, 0 2px 5px 0 #000000;
 }
@@ -95,6 +97,15 @@ th { background: #101010; }
 
 .post-preview .title a {
   color: var(--main-sec);
+}
+
+.post-footer-data {
+  background-color: #101010;
+  border-bottom: 1px solid #303030;
+}
+
+.post-footer hr {
+  color: #303030;
 }
 
 .content-item {
