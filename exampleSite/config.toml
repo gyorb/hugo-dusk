@@ -36,6 +36,11 @@ pygmentsCodeFences = true
   series = "series"
   tag = "tags"
 
+# Configure syntax highlight
+[markup]
+  [markup.highlight]
+    style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
+
 [author]
   name = ""
 

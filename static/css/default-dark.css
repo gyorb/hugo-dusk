@@ -48,6 +48,14 @@ code {
   background-color: transparent;
 }
 
+/* 
+ * syntax highlight code block table backround
+ * looks better if overwritten.
+ * */
+.post .content .highlight table {
+  background-color: #202020 !important;
+}
+
 blockquote {
   background: var(--main-bg-color);
   border-left: 3px solid var(--main-sec);
