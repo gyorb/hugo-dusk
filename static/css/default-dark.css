@@ -56,7 +56,7 @@ blockquote {
 table { margin: 1em auto; border-collapse: collapse; }
 table, th, td { border: 1px solid #5C5C5C; }
 tr:hover { background: #1D1F21; }
-th { background: #1D1F21; }
+th { background: #101010; }
 .siteTitle a {
   color: var(--main-sec);
 }
