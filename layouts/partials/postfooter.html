@@ -2,7 +2,7 @@
 
   <div class="post-footer-data">
             {{ partial "tags.html" . }}
-    <div class="date"> {{ .Date.Format "2006-01-01" }} </div>
+    <div class="date"> {{ .Date.Format "2006-01-02" }} </div>
     {{if or .Params.categories .Params.series}}
     <hr>
             {{ partial "categories.html" . }}
