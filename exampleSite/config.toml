@@ -41,7 +41,7 @@ pygmentsCodeFences = true
   [markup.highlight]
     style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
 
-[author]
+[params.author]
   name = ""
 
 [params.meta]
