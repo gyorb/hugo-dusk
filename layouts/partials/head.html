@@ -1,6 +1,6 @@
 <head>
 <meta charset="utf-8" />
-<meta name="author" content="{{ .Site.Author.name }}" />
+<meta name="author" content="{{ .Site.Params.author.name }}" />
 <meta name="description" content="{{ .Site.Params.meta.description }}" />
 <meta name="keywords" content="{{ .Site.Params.meta.keywords }}" />
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -9,7 +9,6 @@
 <link rel="canonical" href="{{ .Permalink }}">
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
-{{ template "_internal/google_news.html" . }}
 {{ template "_internal/schema.html" . }}
 
 <link rel="stylesheet" href="/css/layout.css" />
@@ -20,7 +19,7 @@
 <link rel="stylesheet" href="/css/default-dark.css" />
 {{ end }}
 
-{{ template "_internal/google_analytics_async.html" . }}
+{{ template "_internal/google_analytics.html" . }}
 
 <title>
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
