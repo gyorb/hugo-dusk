@@ -5,10 +5,12 @@
 
 :root {
     --main-bg-color: #101010;
+    --secondary-bg-color: #202020;
     --main-text: #ffffff;
     --main-sec: #99cc66; /* main secondary color for the site */
     --code-quote-bg: #1D1F21; /* background color for quotes and code blocks */
     --copyright: #808080; /* copyright text color */
+    --border-color: #000000;
 }
 
 body {
@@ -21,7 +23,7 @@ a {
 }
 
 .__h_instagram.card {
-  border: 1px solid #303030 !important;
+  border: 1px solid var(--border-color) !important;
 }
 
 .__h_instagram .card-text {
@@ -40,7 +42,7 @@ a {
 
 pre {
   background: var(--main-bg-color);
-  border: 1px solid #303030;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
 }
 
@@ -53,7 +55,7 @@ code {
  * looks better if overwritten.
  * */
 .post .content .highlight table {
-  background-color: #202020 !important;
+  background-color: var(--main-bg-color) !important;
 }
 
 blockquote {
@@ -64,16 +66,16 @@ blockquote {
 table { margin: 1em auto; border-collapse: collapse; }
 table, th, td { border: 1px solid #5C5C5C; }
 tr:hover { background: #1D1F21; }
-th { background: #101010; }
+th { background: var(--main-bg-color); }
 .siteTitle a {
   color: var(--main-sec);
 }
 
 .post {
-  background: #202020;
-  border-left: 1px solid #303030;
-  border-right: 1px solid #303030;
-  border-top: 1px solid #303030;
+  background: var(--secondary-bg-color);
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
   border-radius: 0.2em;
   box-shadow: 0 1px 2px 0 #000000, 0 2px 5px 0 #000000;
 }
@@ -93,14 +95,14 @@ th { background: #101010; }
 .poweredby a { color: var(--copyright); }
 
 .post-preview {
-  border: 1px solid #303030;
+  border: 1px solid var(--border-color);
   border-radius: 0.2em;
   box-shadow: 0 1px 2px 0 #000000, 0 2px 5px 0 #000000;
-  background: #202020;
+  background: var(--secondary-bg-color);
 }
 
 .post-preview .meta {
-  border-bottom: 1px solid #303030;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .post-preview .title a {
@@ -108,23 +110,27 @@ th { background: #101010; }
 }
 
 .post-footer-data {
-  background-color: #101010;
-  border-bottom: 1px solid #303030;
+  background-color: var(--main-bg-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .post-footer hr {
-  color: #303030;
+  color: var(--border-color);
+}
+
+.post-footer .date {
+  color: #b2b2b2;
 }
 
 .content-item {
-  background: #202020;
-  border: 1px solid #303030;
+  background: var(--secondary-bg-color);
+  border: 1px solid var(--border-color);
   border-radius: 0.2em;
   box-shadow: 0 1px 2px 0 #000000, 0 2px 5px 0 #000000;
 }
 
 .content-item .meta {
-  border-top: 1px dotted #303030;
+  border-top: 1px dotted var(--border-color);
 }
 
 .content-item a:hover{
@@ -142,22 +148,21 @@ th { background: #101010; }
 
 .rmore a {
   background: var(--main-bg-color);
-  border: 1px solid #303030;
+  border: 1px solid var(--border-color);
 }
 
 .rmore a:hover {
-  background: #202020;
-  color: var(--main-text);
+  background: var(--secondary-bg-color) ;
 }
 
 .terms {
-  background: #202020;
-  border: 1px solid #303030;
+  background: var(--secondary-bg-color);
+  border: 1px solid var(--border-color);
   box-shadow: 0 1px 2px 0 #000000, 0 2px 5px 0 #000000;
 }
 
 .terms .term {
-  border-bottom: 1px dotted #303030;
+  border-bottom: 1px dotted var(--border-color);
 }
 
 .term a:hover {
@@ -166,8 +171,8 @@ th { background: #101010; }
 }
 
 .err-404 {
-  border: 1px solid #303030;
+  border: 1px solid var(--border-color);
   border-radius: 0.2em;
-  background: #202020;
+  background: var(--secondary-bg-color);
   box-shadow: 0 1px 2px 0 #000000, 0 2px 5px 0 #000000;
 }

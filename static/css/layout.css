@@ -111,6 +111,7 @@ code {
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
   line-height: 1.5em;
+  font-size: 1.2em;
 }
 
 blockquote {
@@ -198,7 +199,6 @@ th, td {
 }
 
 .post-footer-data .date {
-  font-weight: bold;
   text-align: right;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
