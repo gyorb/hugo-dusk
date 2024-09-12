@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+
+## [1.2] - 2024-09-12
+
 ### Added
   * Show categories and series for the posts
   * [Utterances](https://utteranc.es/) comments support by @Jarijaas
@@ -11,14 +14,20 @@
     - titles, tags, list of posts are not so dense as before
     - default colors were fine tuned
     - some small layout changes
+    - smaller theme updates
+  * new dark theme: cold-dark.css
 
 ### Changed
   * Configuration example for syntax highlight
   * Theme colors can be changed in a custom css file
   * minimal required Hugo version is v0.57.2
   * sort posts/pages on the error page by last modification date
+  * update exampelSite config
+  * use shorthand padding syntax
 
 ### Fixed
+  * fix: update to hugo 1.33.0
+  * fix date format for the post footer
   * fix breaking change in mainSections introduced in Hugo v0.57.0
   * deprecation warnings during site build with v0.55 and newer
   * optimize image size when viewed on mobile devices
