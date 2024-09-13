@@ -10,7 +10,7 @@ Simple minimalistic dark theme for [Hugo](https://gohugo.io/).
 * [OpenGraph](http://ogp.me/), [Twitter cards](https://dev.twitter.com/cards/overview) support
 * [Disqus](https://disqus.com/) comments support
 * [Utterances](https://utteranc.es/) comments support
-* [Google analytics](https://www.google.com/analytics/) (async)
+* [Google analytics](https://www.google.com/analytics/)
 * Configurable pagination for posts
 * Lazy menu
 * Custom 404 page
@@ -39,7 +39,7 @@ theme = "hugo-dusk"
 googleAnalytics = ""
 disqusShortname = ""
 
-[author]
+[params.author]
   name = ""
 
 SectionPagesMenu = "main"
@@ -47,7 +47,7 @@ SectionPagesMenu = "main"
 # Configure syntax highlight
 [markup]
   [markup.highlight]
-    style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
+    style = "gruvbox"  # dark themes: monokai, api, fruity, native, rrt, swapoff ... https://xyproto.github.io/splash/docs/longer/all.html
 
 [[menu.main]]
   name = "Posts"
