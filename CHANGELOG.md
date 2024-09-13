@@ -3,7 +3,13 @@
 ## [Unreleased]
 
 
-## [1.2] - 2024-09-12
+## [1.3.0] - 2024-09-13
+
+### Changed
+  * fine-tune cold dark theme
+  * update readme
+
+## [1.2.0] - 2024-09-12
 
 ### Added
   * Show categories and series for the posts
