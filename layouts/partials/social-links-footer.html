@@ -20,6 +20,10 @@
   <a href="https://www.linkedin.com/in/{{.}}" target="_blank"><div class="social-link">LinkedIn</div></a>
   {{end}}
 
+  {{with .Site.Params.mastodon}}
+  <a rel="me" href="{{.server}}/@{{.username}}" target="_blank"><div class="social-link">Mastodon</div></a>
+  {{end}}
+
   <div class="social-link">
   {{ with .OutputFormats.Get "rss" -}}
     <a href="{{ .RelPermalink }}">RSS</a>

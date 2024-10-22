@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [1.4.0] - 2024-10-21
+
+### Added
+  * [Mastodon](https://joinmastodon.org/) [verification](https://joinmastodon.org/verification)
+  * [Fediverse creator tag](https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/)
 
 ## [1.3.0] - 2024-09-13
 
