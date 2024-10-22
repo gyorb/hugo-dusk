@@ -67,7 +67,7 @@ SectionPagesMenu = "main"
   keywords = "blog, tech"
   description = "Personal blog."
 [params.meta.fediverse]
-  creator = "@usename@mastodon.server" # https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
+  creator = "@username@mastodon.server" # https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
 
 [params]
   github = "github id"
