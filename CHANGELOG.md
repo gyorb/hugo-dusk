@@ -8,6 +8,11 @@
   * [Mastodon](https://joinmastodon.org/) [verification](https://joinmastodon.org/verification)
   * [Fediverse creator tag](https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/)
 
+### Changed
+  * Simplify design
+    * Remove social links from the top and reading time
+    * change date format
+
 ## [1.3.0] - 2024-09-13
 
 ### Changed
