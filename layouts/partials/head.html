@@ -3,6 +3,9 @@
 <meta name="author" content="{{ .Site.Params.author.name }}" />
 <meta name="description" content="{{ .Site.Params.meta.description }}" />
 <meta name="keywords" content="{{ .Site.Params.meta.keywords }}" />
+{{with .Site.Params.meta.fediverse}}
+<meta name="fediverse:creator" content="{{.creator}}">
+{{end}}
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 {{ hugo.Generator }}
 

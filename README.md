@@ -8,6 +8,8 @@ Simple minimalistic dark theme for [Hugo](https://gohugo.io/).
 * Configurable theme colors (with custom css file)
 * Syntax highlight with builtin [Chroma](http://gohugo.io/content-management/syntax-highlighting/)
 * [OpenGraph](http://ogp.me/), [Twitter cards](https://dev.twitter.com/cards/overview) support
+* [Mastodon](https://joinmastodon.org/) [verification](https://joinmastodon.org/verification)
+* [Fediverse creator tag](https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/)
 * [Disqus](https://disqus.com/) comments support
 * [Utterances](https://utteranc.es/) comments support
 * [Google analytics](https://www.google.com/analytics/)
@@ -64,6 +66,8 @@ SectionPagesMenu = "main"
 [params.meta]
   keywords = "blog, tech"
   description = "Personal blog."
+[params.meta.fediverse]
+  creator = "@usename@mastodon.server" # https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
 
 [params]
   github = "github id"
@@ -75,4 +79,7 @@ SectionPagesMenu = "main"
   utterancesRepo="REPO_NAME" # Utterances is enabled when this param is set
   utterancesTheme="github-dark" # Default: github-dark
   utterancesIssueTerm="pathname" # Default: pathname
+[params.mastodon] # https://joinmastodon.org/verification
+  username = "username"
+  server = "https://example.com"
 ~~~~
