@@ -1,11 +1,12 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
+publishDate: {{ .Date }}
 tags:
   - x
-  - y
 categories:
   - x
-  - y
+series:
+  - x
 draft: true
 ---
