@@ -52,6 +52,7 @@ SectionPagesMenu = "main"
   twitter = "twitter id"
   #linkedin = "linkedin id"
   theme_colors = "default-dark"
+  enable_separate_homepage = "false"
 
 [params.mastodon] # https://joinmastodon.org/verification
   username = "username"
