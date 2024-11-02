@@ -3,10 +3,18 @@
   <div class="post-footer-data">
             {{ partial "tags.html" . }}
     {{if or .Params.categories .Params.series}}
-    <hr>
             {{ partial "categories.html" . }}
             {{ partial "series.html" . }}
     {{end}}
+    <hr>
+    {{if .Params.syndicate}}
+        <div class="syndicate"> Syndicated to: 
+      {{ range .Params.syndicate }}
+        {{ $u := urls.Parse . }}
+          <a href="{{ . }}">{{$u.Hostname}}</a>
+      {{ end }}
+        </div>
+    {{ end }}
     <div class="date"> Published: {{ .Date.Format "2006-01-02" }}</div>
   </div>
 </footer>

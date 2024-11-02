@@ -200,12 +200,22 @@ th, td {
 
 .post-footer-data .date {
   text-align: right;
-  padding-top: 0.2em;
+  margin-top: 0.3em;
   padding-bottom: 0.2em;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.post-footer-data .syndicate {
+  margin-top: 0.3em;
+  padding-bottom: 0.2em;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 .post-footer-data .tag {
   font-weight: bold;
+  margin-bottom: 1em;
 }
 
 .post-footer-data .categories {

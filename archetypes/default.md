@@ -8,5 +8,7 @@ categories:
   - x
 series:
   - x
+syndicate:
+  - x
 draft: true
 ---
