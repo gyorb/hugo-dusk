@@ -570,6 +570,34 @@ th, td {
   padding: 0.5em;
 }
 
+.author {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.8em;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  text-align: center;
+  padding: 0 0.5em 0 0.5em;
+}
+
+.recent-post-list {
+  margin-bottom: 6em;
+  padding: 0 0.5em 0 0.5em;
+}
+
+.recent-post-item {
+  display: -webkit-flex;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.recent-post-item .date{
+  text-align: right;
+  display:inline;
+}
+
 @media only screen and (min-width: 400px) {
 
   nav {

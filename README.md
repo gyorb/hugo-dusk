@@ -76,6 +76,7 @@ SectionPagesMenu = "main"
   linkedin = "linkedin id"
   email = "myemail"
   theme_colors = "default-dark" # uses color css file under static/css/default-dark.css
+  enable_separate_homepage = "false"
   utterancesRepo="REPO_NAME" # Utterances is enabled when this param is set
   utterancesTheme="github-dark" # Default: github-dark
   utterancesIssueTerm="pathname" # Default: pathname
