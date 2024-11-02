@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+### Added
+  * feat: add separate optional homepage instead of the list of posts 
+  * add separate blog layout
+  * feat: add last modification date to the post footer
+  * feat: add support to syndicate links
+  * extend default archetype template
+
 ## [1.4.0] - 2024-10-21
 
 ### Added
