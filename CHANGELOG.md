@@ -2,8 +2,11 @@
 
 ## [Unreleased]
 
+### Changed
+  * main content is under blog instead of post
+
 ### Added
-  * feat: add separate optional homepage instead of the list of posts 
+  * feat: add separate optional main page instead of the list of posts set it with: "enable_separate_main_page"
   * add separate blog layout
   * feat: add last modification date to the post footer
   * feat: add support to syndicate links
