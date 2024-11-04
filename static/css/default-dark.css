@@ -122,6 +122,10 @@ th { background: var(--main-bg-color); }
   color: #b2b2b2;
 }
 
+.post-footer .updated {
+  color: #b2b2b2;
+}
+
 .content-item {
   background: var(--secondary-bg-color);
   border: 1px solid var(--border-color);
