@@ -56,6 +56,7 @@ SectionPagesMenu = "main"
   creator = "@username@mastodon.server" # https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
 
 [params]
+  mainSections = ['blog']
   email = "myemail"
   github = "github id"
   #gitlab = "gitlab id"

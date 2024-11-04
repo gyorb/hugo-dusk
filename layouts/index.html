@@ -13,7 +13,7 @@
 
   <div class="recent-post-list">
 
-  {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+  {{ range first 3 (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
   <div class="recent-post-item">
     <a href="{{ .Permalink }}"> <div class="recent-post">{{ .Title }} </div> </a>
     <div class="date"> {{ .Date.Format "2006-01-02" }} </div>
