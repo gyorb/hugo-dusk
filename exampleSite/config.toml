@@ -14,10 +14,10 @@ disqusShortname = ""
 SectionPagesMenu = "main"
 
 [[menu.main]]
-  name = "Posts"
+  name = "Blog"
   weight = -120
-  identifier = "post"
-  url = "/post/"
+  identifier = "blog"
+  url = "/blog/"
 
 [[menu.main]]
   name = "Tags"
@@ -25,9 +25,15 @@ SectionPagesMenu = "main"
   identifier = "tag"
   url = "/tags/"
 
+[[menu.main]]
+  name = "Archive"
+  weight = -100
+  identifier = "archive"
+  url = "/archive/"
+
 [taxonomies]
+  blog = "blog"
   category = "categories"
-  group = "groups"
   series = "series"
   tag = "tags"
 

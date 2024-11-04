@@ -46,16 +46,22 @@ disqusShortname = ""
 
 SectionPagesMenu = "main"
 
+[taxonomies]
+  blog = "blog"
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
 # Configure syntax highlight
 [markup]
   [markup.highlight]
     style = "gruvbox"  # dark themes: monokai, api, fruity, native, rrt, swapoff ... https://xyproto.github.io/splash/docs/longer/all.html
 
 [[menu.main]]
-  name = "Posts"
+  name = "Blog"
   weight = -120
-  identifier = "post"
-  url = "/post/"
+  identifier = "blog"
+  url = "/blog/"
 
 [[menu.main]]
   name = "Tags"
