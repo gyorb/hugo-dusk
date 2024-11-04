@@ -43,7 +43,10 @@ SectionPagesMenu = "main"
     style = "gruvbox"  # dark themes: monokai, api, fruity, native, rrt, swapoff ... https://xyproto.github.io/splash/docs/longer/all.html
 
 [params.author]
-  name = ""
+  name = "Author name"
+  intro = """\
+    'hugo-dusk' theme for [hugo](https://gohugo.io/) an open-source static site generator.\
+  """
 
 [params.meta]
   keywords = ""
@@ -58,7 +61,7 @@ SectionPagesMenu = "main"
   twitter = "twitter id"
   #linkedin = "linkedin id"
   theme_colors = "default-dark"
-  enable_separate_homepage = "false"
+  enable_separate_main_page = false # enable a separate main page with author intro and recent posts instead of the list of posts
 
 [params.mastodon] # https://joinmastodon.org/verification
   username = "username"

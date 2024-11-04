@@ -42,7 +42,10 @@ googleAnalytics = ""
 disqusShortname = ""
 
 [params.author]
-  name = ""
+  name = "Author name"
+  intro = """\
+    'hugo-dusk' theme for [hugo](https://gohugo.io/) an open-source static site generator.\
+  """
 
 SectionPagesMenu = "main"
 
@@ -82,7 +85,7 @@ SectionPagesMenu = "main"
   linkedin = "linkedin id"
   email = "myemail"
   theme_colors = "default-dark" # uses color css file under static/css/default-dark.css
-  enable_separate_homepage = "false"
+  enable_separate_main_page = false # enable a separate main page with author intro and recent posts instead of the list of posts
   utterancesRepo="REPO_NAME" # Utterances is enabled when this param is set
   utterancesTheme="github-dark" # Default: github-dark
   utterancesIssueTerm="pathname" # Default: pathname

@@ -3,10 +3,10 @@
 
 <main>
 
-{{if .Site.Params.enable_separate_homepage }}
+{{if .Site.Params.enable_separate_main_page }}
   <div class=author>
     <h2> {{ .Site.Params.Author.name }} </h2>
-    {{ .Site.Params.Author.intro }}
+    {{ .Site.Params.Author.intro | markdownify  }}
   </div>
   
   <h3>Recent posts:</h3>
