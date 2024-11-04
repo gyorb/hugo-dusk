@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+<main>
+
+  {{ range (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
+    {{ .Render "li" }}
+  {{ end }}
+
+</main>
+
+{{ partial "footer.html" . }}

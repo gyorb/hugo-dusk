@@ -50,6 +50,7 @@ disqusShortname = ""
 SectionPagesMenu = "main"
 
 [taxonomies]
+  archive = "archive"
   blog = "blog"
   category = "categories"
   series = "series"
@@ -71,6 +72,12 @@ SectionPagesMenu = "main"
   weight = -110
   identifier = "tag"
   url = "/tags/"
+
+[[menu.main]]
+  name = "Archive"
+  weight = -100
+  identifier = "archive"
+  url = "/archive/"
 
 [params.meta]
   keywords = "blog, tech"

@@ -32,6 +32,7 @@ SectionPagesMenu = "main"
   url = "/archive/"
 
 [taxonomies]
+  archive = "archive"
   blog = "blog"
   category = "categories"
   series = "series"
