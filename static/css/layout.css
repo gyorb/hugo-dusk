@@ -192,6 +192,7 @@ th, td {
   flex-direction: column;
   align-items: flex-start;
   padding: 1em;
+  font-size: 0.9em;
 }
 
 .post-footer hr {
@@ -202,7 +203,7 @@ th, td {
   text-align: right;
   margin-top: 0.3em;
   padding-bottom: 0.2em;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: bold;
 }
 
@@ -210,14 +211,12 @@ th, td {
   text-align: right;
   margin-top: 0.3em;
   padding-bottom: 0.2em;
-  font-size: 0.8em;
   font-weight: bold;
 }
 
 .post-footer-data .syndicate {
   margin-top: 0.3em;
   padding-bottom: 0.2em;
-  font-size: 0.9em;
   font-weight: bold;
 }
 

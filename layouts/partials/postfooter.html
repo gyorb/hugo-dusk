@@ -7,6 +7,8 @@
             {{ partial "series.html" . }}
     {{end}}
     <hr>
+    <div class="date"> Published: {{ .Date.Format "2006-01-02" }}</div>
+    <div class="updated"> Updated:   {{ .Lastmod.Format "2006-01-02" }}</div>
     {{if .Params.syndicate}}
         <div class="syndicate"> Syndicated to: 
       {{ range .Params.syndicate }}
@@ -15,8 +17,8 @@
       {{ end }}
         </div>
     {{ end }}
-    <div class="date"> Published: {{ .Date.Format "2006-01-02" }}</div>
-    <div class="updated"> Updated:   {{ .Lastmod.Format "2006-01-02" }}</div>
+    <hr>
+  {{ partial "related.html" . }}
   </div>
 </footer>
 
