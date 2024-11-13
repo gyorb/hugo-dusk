@@ -11,6 +11,7 @@
   * feat: add last modification date to the post footer
   * feat: add support to syndicate links
   * extend default archetype template
+  * separate description value for each post (metadata)
 
 ## [1.4.0] - 2024-10-21
 

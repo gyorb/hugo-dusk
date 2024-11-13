@@ -10,5 +10,6 @@ syndicate: []
 audio: []
 videos: []
 images: []
+description: ""
 draft: true
 ---

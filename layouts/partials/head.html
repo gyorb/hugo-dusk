@@ -1,7 +1,11 @@
 <head>
 <meta charset="utf-8" />
 <meta name="author" content="{{ .Site.Params.author.name }}" />
+{{ if .Description }}
+<meta name="description" content="{{ .Description }}">
+{{ else }}
 <meta name="description" content="{{ .Site.Params.meta.description }}" />
+{{ end }}
 <meta name="keywords" content="{{ .Site.Params.meta.keywords }}" />
 {{with .Site.Params.meta.fediverse}}
 <meta name="fediverse:creator" content="{{.creator}}">
