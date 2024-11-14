@@ -180,3 +180,43 @@ th { background: var(--main-bg-color); }
   background: var(--secondary-bg-color);
   box-shadow: 0 1px 2px 0 #000000, 0 2px 5px 0 #000000;
 }
+
+.alert-warning {
+  border-left: 3px solid #ffb961;
+}
+
+.alert-warning .alert-heading{
+  color: #ffb961;
+}
+
+.alert-caution {
+  border-left: 3px solid #FF6666;
+}
+
+.alert-caution .alert-heading{
+  color: #FF6666;
+}
+
+.alert-important {
+  border-left: 3px solid #a0c7f8;
+}
+
+.alert-important .alert-heading{
+  color: #a0c7f8;
+}
+
+.alert-note {
+  border-left: 3px solid #9FE2BF;
+}
+
+.alert-note .alert-heading{
+  color: #9FE2BF;
+}
+
+.alert-tip {
+  border-left: 3px solid #9FE2BF;
+}
+
+.alert-tip .alert-heading{
+  color: #9FE2BF;
+}

@@ -12,6 +12,7 @@
   * feat: add support to syndicate links
   * extend default archetype template
   * separate description value for each post (metadata)
+  * support callout blockquotes 
 
 ## [1.4.0] - 2024-10-21
 

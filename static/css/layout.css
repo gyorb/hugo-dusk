@@ -117,6 +117,8 @@ code {
 blockquote {
   padding: 0.5em;
   padding-left: 1em;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
 }
 
 th, td {
@@ -638,3 +640,48 @@ th, td {
   }
 }
 
+
+.alert-warning {
+  padding-top: 0.01em;
+  padding-bottom: 0.01em;
+}
+
+.alert-warning .alert-heading{
+  font-weight: bold;
+}
+
+.alert-caution {
+  padding-top: 0.01em;
+  padding-bottom: 0.01em;
+}
+
+.alert-caution .alert-heading{
+  font-weight: bold;
+}
+
+.alert-important {
+  padding-top: 0.01em;
+  padding-bottom: 0.01em;
+}
+
+.alert-important .alert-heading{
+  font-weight: bold;
+}
+
+.alert-note {
+  padding-top: 0.01em;
+  padding-bottom: 0.01em;
+}
+
+.alert-note .alert-heading{
+  font-weight: bold;
+}
+
+.alert-tip {
+  padding-top: 0.01em;
+  padding-bottom: 0.01em;
+}
+
+.alert-tip .alert-heading{
+  font-weight: bold;
+}
