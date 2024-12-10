@@ -430,6 +430,43 @@ th, td {
   text-decoration: none;
 }
 
+/* micro post */
+
+.post .micro-content{
+  font-size: 1.1em;
+  padding-left : 1em;
+  padding-right : 1em;
+}
+
+.micro-footer-data {
+  padding-bottom: 1em;
+}
+
+.micro-footer-data .date {
+  text-align: left;
+  margin-top: 0.3em;
+  padding-bottom: 0.2em;
+  font-size: 0.8em;
+  padding-left: 1em;
+}
+
+.micro-footer-data .syndicate {
+  margin-top: 0.3em;
+  padding-bottom: 0.2em;
+  font-size: 0.9em;
+  padding-left: 1em;
+}
+
+.micro-footer-data .tags{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1em;
+}
+
+.micro-footer-data .tag a {
+  font-size: 0.9em;
+}
+
 /* summary list on main page  */
 
 .post-preview {

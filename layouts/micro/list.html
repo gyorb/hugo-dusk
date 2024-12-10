@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+<main>
+
+<h2>Short notes, links:</h2>
+
+{{ $paginator := .Paginate (where site.RegularPages "Type" "in" "micro") }}
+  {{ range $paginator.Pages }}
+
+    <article class="post">
+        <div class="micro-content"> {{ .Content }} </div>
+        {{ partial "microfooter.html" . }}
+    </article>
+
+{{ end }}
+
+{{ partial "paginator-menu.html" . }}
+
+</main>
+
+{{ partial "footer.html" . }}

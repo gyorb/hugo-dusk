@@ -3,7 +3,7 @@ title = "Hugo Themes"
 copyright = "Copyright (c) 2008 - 2014, all rights reserved."
 languageCode = "en-US"
 canonifyurls = true
-paginate = 3
+pagination.pagerSize = 8
 theme = "hugo-dusk"
 themesDir = "../.."
 enableRobotsTXT = true
@@ -37,6 +37,7 @@ SectionPagesMenu = "main"
   category = "categories"
   series = "series"
   tag = "tags"
+  micro = "micro"
 
 # Configure syntax highlight
 [markup]
@@ -46,7 +47,8 @@ SectionPagesMenu = "main"
 [params.author]
   name = "Author name"
   intro = """\
-    'hugo-dusk' theme for [hugo](https://gohugo.io/) an open-source static site generator.\
+    'hugo-dusk' theme for [hugo](https://gohugo.io/) an open-source static site generator. \
+    For micro posts see [micro](/micro)
   """
 
 [params.meta]
@@ -63,7 +65,7 @@ SectionPagesMenu = "main"
   twitter = "twitter id"
   #linkedin = "linkedin id"
   theme_colors = "default-dark"
-  enable_separate_main_page = false # enable a separate main page with author intro and recent posts instead of the list of posts
+  enable_separate_main_page = true # enable a separate main page with author intro and recent posts instead of the list of posts
 
 [params.mastodon] # https://joinmastodon.org/verification
   username = "username"

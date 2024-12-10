@@ -1,0 +1,23 @@
+<footer class="post-footer">
+
+  <div class="micro-footer-data">
+    <div class="tags">
+    {{if .Params.tags}}
+      {{ range .Params.tags }}
+        <div class="tag">
+          <a href="/tags/{{ . | urlize }}">#{{.}}</a> &nbsp;
+        </div>
+      {{ end }}
+    {{ end }}
+    </div>
+    {{if .Params.syndicate}}
+        <div class="syndicate"> Syndicated to: 
+      {{ range .Params.syndicate }}
+        {{ $u := urls.Parse . }}
+          <a href="{{ . }}">{{$u.Hostname}}</a>
+      {{ end }}
+        </div>
+    {{ end }}
+    <div class="date"> Published: {{ .Date.Format "2006-01-02" }}</div>
+  </div>
+</footer>
