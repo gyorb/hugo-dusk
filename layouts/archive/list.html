@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <main>
 
-  {{ range (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
+  {{ range (where .Site.RegularPages "Type" "in" (union site.Params.mainSections (slice "micro"))) }}
     {{ .Render "li" }}
   {{ end }}
 
