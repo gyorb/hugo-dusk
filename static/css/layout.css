@@ -722,3 +722,14 @@ th, td {
 .alert-tip .alert-heading{
   font-weight: bold;
 }
+
+.related-content {
+  text-decoration: none;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.related-content .title {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+}
