@@ -4,15 +4,18 @@
 
 ### Changed
   * main content is under blog instead of post
+  * replaced exampleSite
 
 ### Added
-  * feat: add separate optional main page instead of the list of posts set it with: "enable_separate_main_page"
+  * add separate optional main page instead of the list of posts set it with: "enable_separate_main_page"
   * add separate blog layout
-  * feat: add last modification date to the post footer
-  * feat: add support to syndicate links
+  * add last modification date to the post footer
+  * add support to syndicate links
   * extend default archetype template
   * separate description value for each post (metadata)
   * support callout blockquotes 
+  * support and separate page for micro posts
+  * related content is visible at the bottom of a post
 
 ## [1.4.0] - 2024-10-21
 
