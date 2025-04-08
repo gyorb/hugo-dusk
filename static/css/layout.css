@@ -1,5 +1,6 @@
 body {
-  font-family: "Arial", Gadget, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, Gadget, sans-serif;
+  font-size: 18px;
   counter-reset: heading;
   margin: 0;
 }
@@ -38,30 +39,32 @@ iframe {
 }
 
 li {
-  margin-top: 0.5em;
+  margin: 0.5em;
+  line-height: 1.6em;
 }
 
 p {
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
 h1 { font-size: 2em;
-     font-weight: normal;
+     font-weight: bold;
+     margin-block: 0.67em;
 }
 h2 { font-size: 1.5em;
-     font-weight: normal;
+     font-weight: bold;
 }
 h3 { font-size: 1.17em;
-     font-weight: normal;
+     font-weight: bold;
 }
 h4 { font-size: 1.12em;
-     font-weight: normal;
+     font-weight: bold;
 }
 h5 { font-size: .83em;
-     font-weight: normal;
+     font-weight: bold;
 }
 h6 { font-size: .75em;
-     font-weight: normal;
+     font-weight: bold;
 }
 
 a:active, a:focus {
@@ -110,8 +113,7 @@ code {
   white-space: -pre-wrap;      /* Opera 4-6 */
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
-  line-height: 1.5em;
-  font-size: 1.2em;
+  line-height: 1.3em;
 }
 
 blockquote {
@@ -164,23 +166,23 @@ th, td {
 }
 
 .post .content h1{
-  margin: 1em 0em;
+  margin: 1.2em 0em;
 }
 
 .post .content h2{
-  margin: 1em 0em;
+  margin: 1.2em 0em;
 }
 
 .post .content h3{
-  margin: 1em 0em;
+  margin: 1.2em 0em;
 }
 
 .post .content h4{
-  margin: 1em 0em;
+  margin: 1.2em 0em;
 }
 
 .post .content h5{
-  margin: 1em 0em;
+  margin: 1.2em 0em;
 }
 
 .post .content p{
@@ -489,7 +491,6 @@ th, td {
   padding-left: 0.5em;
   padding-right: 0.5em;
   padding-top: 0.5em;
-  line-height: 1.5em;
 }
 
 .post-preview .summary p {
@@ -497,7 +498,6 @@ th, td {
   margin-block-end: 0.5em;
   margin-inline-start: 0.em;
   margin-inline-end: 0em;
-  line-height: 1.5em;
 }
 
 .post-preview .meta {
