@@ -1,11 +1,10 @@
 
+{{if .Params.categories}}
 <div class="categories">
-  {{if .Params.categories}}
-  Published in:
-    {{ range .Params.categories }}
-      <div class="category">
-        <a href="/categories/{{ . | urlize }}">{{.}}</a>
-      </div>
-    {{ end }}
+  {{ range .Params.categories }}
+    <div class="category">
+      <a href="/categories/{{ . | urlize }}">{{.}}</a>
+    </div>
   {{ end }}
 </div>
+{{ end }}

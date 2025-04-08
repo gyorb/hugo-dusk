@@ -126,6 +126,27 @@ th { background: var(--main-bg-color); }
   color: #b2b2b2;
 }
 
+.post .metadata {
+  background: var(--main-bg-color);
+  color: #dcddde;
+}
+
+.metadata .tags .tag a {
+  color: #dcddde;
+}
+
+.metadata .categories a {
+  color: #dcddde;
+}
+
+.metadata .series a {
+  color: #dcddde;
+}
+
+.metadata .syndicate a {
+  color: #dcddde;
+}
+
 .content-item {
   background: var(--secondary-bg-color);
   border: 1px solid var(--border-color);
@@ -225,7 +246,7 @@ th { background: var(--main-bg-color); }
   border: 1px solid var(--border-color);
   border-radius: 0.2em;
   box-shadow: 0 1px 2px 0 #000000, 0 2px 5px 0 #000000;
-  background: var(---main-bg-color);
+  background: var(--secondary-bg-color);
 }
 
 .related-content .title {

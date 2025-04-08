@@ -152,8 +152,7 @@ th, td {
 }
 
 .post .content{
-  padding-left : 1em;
-  padding-right : 1em;
+  padding: 1em;
 }
 
 .post .date {
@@ -526,6 +525,30 @@ th, td {
   display: inline-block;
 }
 
+.post .metadata {
+  font-weight: 600;
+  font-size: 0.8em;
+  text-align: left;
+  padding: 1em;
+  line-height: 1.4em;
+}
+
+.metadata .tags .tag a {
+  text-decoration: underline;
+}
+
+.metadata .categories a {
+  text-decoration: underline;
+}
+
+.metadata .series a {
+  text-decoration: underline;
+}
+
+.metadata .syndicate a {
+  text-decoration: underline;
+}
+
 .rmore {
   margin-top: 0.5em;
   white-space:nowrap;
@@ -726,6 +749,7 @@ th, td {
 .related-content {
   text-decoration: none;
   padding: 0.5em 0.5em 0.5em 0.5em;
+  margin-top: 2em;
   margin-bottom: 1.5em;
 }
 
