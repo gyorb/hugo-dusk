@@ -733,3 +733,20 @@ th, td {
   margin-top: 0.5em;
   margin-left: 0.5em;
 }
+
+/* target the details element */
+details { }
+
+/* target the summary element */
+details > summary {
+  padding: 0.3em;
+  text-decoration: underline;
+}
+
+/* target the children of the summary element */
+details > summary > * {
+}
+
+/* target the content */
+details > :not(summary) {
+}

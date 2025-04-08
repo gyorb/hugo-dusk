@@ -34,6 +34,29 @@ Beatae odio et adipisci ullam aperiam recusandae. Occaecati non aspernatur harum
 
 **This text is bold** and __this is too__.  
 
+{{< details summary="See the details" >}}
+
+Beatae odio et adipisci ullam aperiam recusandae. Occaecati non aspernatur harum in delectus vero facere. Similique aut ea animi. Possimus distinctio et qui.
+
+> Blockquote.
+
+
+```toml
+baseurl = "/"
+title = "Hugo Theme"
+languageCode = "en-US"
+canonifyurls = true
+pagination.pagerSize = 3
+theme = "hugo-dusk"
+themesDir = "../.."
+enableRobotsTXT = true
+```
+
+> [!NOTE]
+> some note
+
+{{< /details >}}
+
 ## Heading 2
 
 *This text is italic* and  _this is too_.  
