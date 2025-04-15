@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 title = "Hugo Themes"
 copyright = "Copyright (c) 2008 - 2014, all rights reserved."
 languageCode = "en-US"
@@ -66,6 +66,7 @@ SectionPagesMenu = "main"
   #linkedin = "linkedin id"
   theme_colors = "default-dark"
   enable_separate_main_page = true # enable a separate main page with author intro and recent posts instead of the list of posts
+  generate_opengraph_image = false # enable opengraph image auto generation
 
 [params.mastodon] # https://joinmastodon.org/verification
   username = "username"
