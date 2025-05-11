@@ -1,6 +1,5 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, Gadget, sans-serif;
-  font-size: 18px;
   counter-reset: heading;
   margin: 0;
 }
@@ -89,7 +88,7 @@ nav {
 }
 
 .nav-item {
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-decoration: none;
   font-weight: bold;
 }
@@ -113,7 +112,7 @@ code {
   white-space: -pre-wrap;      /* Opera 4-6 */
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
-  line-height: 1.3em;
+  line-height: 1.6em;
 }
 
 blockquote {
@@ -530,7 +529,7 @@ th, td {
   font-size: 0.8em;
   text-align: left;
   padding: 1em;
-  line-height: 1.4em;
+  line-height: 1.6em;
 }
 
 .metadata .tags .tag a {
