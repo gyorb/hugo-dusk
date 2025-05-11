@@ -21,6 +21,6 @@
 </footer>
 
 {{ if eq .Type "post" }}
-  {{ template "_internal/disqus.html" . }}
-  {{ template "partials/utterances.html" . }}
+  {{ partial "disqus.html" . }}
+  {{ partial "utterances.html" . }}
 {{ end }}

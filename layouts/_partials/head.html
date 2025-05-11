@@ -14,14 +14,15 @@
 {{ hugo.Generator }}
 
 <link rel="canonical" href="{{ .Permalink }}">
-{{if .Site.Params.generate_opengraph_image }}
-{{ partial "opengraph.html" . }}
-{{ else }}
-{{ template "_internal/opengraph.html" . }}
-{{ template "_internal/twitter_cards.html" . }}
-{{end}}
 
-{{ template "_internal/schema.html" . }}
+{{ if .Site.Params.generate_opengraph_image }}
+  {{ partial "opengraph_with_img.html" . }}
+{{ else }}
+  {{ partial "opengraph.html" . }}
+  {{ partial "twitter_cards.html" . }}
+{{ end }}
+
+{{ partial "schema.html" . }}
 
 <link rel="stylesheet" href="/css/layout.css" />
 
@@ -31,7 +32,7 @@
 <link rel="stylesheet" href="/css/default-dark.css" />
 {{ end }}
 
-{{ template "_internal/google_analytics.html" . }}
+{{ partial "google_analytics.html" . }}
 
 <title>
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
